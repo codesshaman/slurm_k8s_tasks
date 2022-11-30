@@ -14,7 +14,8 @@ spec:
         app: my-app
     spec:
       containers:
-      - image: nginx/nginx:1.13
+      - image: quay.io/testing-farm/nginx:1.12
         name: nginx
         ports:
         - containerPort: 80
+...
